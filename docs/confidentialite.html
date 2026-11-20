@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité · Zinqo</title>
+<meta name="description" content="Zinqo fonctionne sur ton PC : ce qu&#x27;il conserve, ce qu&#x27;il envoie, et à qui.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; media-src 'self'; style-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="zinqo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<!--HEAD-->
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html"><img src="zinqo.svg" alt="" width="24" height="24">Zinqo</a>
+  <nav aria-label="Menu principal">
+    <a class="opt" href="index.html#fonctions">Fonctions</a>
+    <a class="opt" href="index.html#config">Configuration</a>
+    <a class="opt" href="index.html#faq">FAQ</a>
+    <a href="aide.html">Aide</a>
+    <a class="pill js-dl" href="https://github.com/DXTR-Codex/zinqo/releases/latest" rel="noopener">Télécharger</a>
+  </nav>
+</div></header>
+<!--/HEAD-->
+<main id="contenu"><div class="wrap doc">
+<h1>Politique de confidentialité</h1>
+<p class="dates">Dernière mise à jour : 20/11/2026</p>
+<p>Qui est l&#x27;éditeur ? Rafael Vallais, personne physique (France). Contact : <a href="mailto:vallais.rafael@gmail.com">vallais.rafael@gmail.com</a></p>
+<h2>1. Principe</h2>
+<p>Zinqo fonctionne sur ton ordinateur. L&#x27;éditeur n&#x27;a pas de serveur, pas de compte utilisateur, pas de statistiques d&#x27;usage ni de publicité, et ne reçoit ni tes vidéos, ni tes clés, ni tes données. Les données ci-dessous restent sur ton PC.</p>
+<h2>2. Ce qui est conservé sur ton PC (dossier %LOCALAPPDATA%\Zinqo)</h2>
+<ul>
+<li>Réglages et liste de tes clips : titres, légendes, adresses des vidéos sources, noms de chaînes, statistiques de ton compte TikTok public, ton nom d&#x27;utilisateur TikTok.</li>
+<li>Ta clé Gemini et, si tu te connectes à TikTok, tes jetons de connexion : chiffrés avec Windows (DPAPI), lisibles seulement par ton compte Windows sur ce PC.</li>
+<li>Les chaînes YouTube que tu suis, un fichier « tutoriel déjà vu », des miniatures, des fichiers temporaires (vidéos téléchargées, transcriptions) effacés après les clips.</li>
+<li>Tes clips, dans ton dossier Vidéos.</li>
+</ul>
+<p>Tu peux tout supprimer : le désinstalleur propose de supprimer aussi tes données (le dossier %LOCALAPPDATA%\Zinqo) ; tes clips, dans le dossier Vidéos, ne sont jamais supprimés par le désinstalleur.</p>
+<h2>3. Ce que Zinqo envoie sur Internet, seulement quand tu lances l&#x27;action concernée</h2>
+<ul>
+<li>À YouTube (Google) : les adresses des vidéos que tu traites et le flux public des chaînes que tu suis ; ton adresse IP est visible. Si tu coches « Utiliser les cookies de mon navigateur », les cookies YouTube de ce navigateur sont lus sur ton PC et utilisés pour télécharger la vidéo ; ils ne sont ni enregistrés par Zinqo ni envoyés à l&#x27;éditeur.</li>
+<li>À SponsorBlock : un identifiant partiel de la vidéo, pour repérer les passages sponsorisés.</li>
+<li>À Google Gemini, seulement si tu saisis ta propre clé : le texte transcrit de passages de la vidéo, ta demande et ta clé. Ce texte peut contenir des paroles de tiers. Selon les conditions de Google, le niveau gratuit peut servir à améliorer ses produits (hors Espace économique européen). Ne l&#x27;utilise pas pour des contenus sensibles.</li>
+<li>À TikTok, seulement si tu te connectes (fonction expérimentale, non disponible pour les autres utilisateurs) : la connexion, les clips que tu choisis d&#x27;envoyer, et la lecture de ton profil public.</li>
+<li>À GitHub, NVIDIA (PyPI) et BtbN : pour chercher les mises à jour et télécharger l&#x27;installeur et les composants ; ils voient ton adresse IP (voir leurs politiques).</li>
+</ul>
+<p>« Signaler un problème » (bouton dans l&#x27;aide) fabrique seulement un fichier .zip sur ton Bureau (version, Windows, carte graphique, journal récent, réglages sans clé, jeton ni cookie, chemins sans ton nom d&#x27;utilisateur) : il n&#x27;est jamais envoyé automatiquement, c&#x27;est toi qui décides de l&#x27;envoyer à l&#x27;éditeur.</p>
+<p>Zinqo n&#x27;envoie rien d&#x27;autre à l&#x27;éditeur.</p>
+<h2>4. Responsable de traitement</h2>
+<p>L&#x27;éditeur ne reçoit pas tes données et ne décide pas des traitements faits sur ton PC. Les services tiers cités sont responsables de leurs propres traitements (voir leurs politiques).</p>
+<h2>5. Tes droits</h2>
+<p>Comme l&#x27;éditeur ne détient pas tes données, tu les gères toi-même (suppression du dossier). Pour une demande concernant les messages que tu envoies à l&#x27;éditeur : <a href="mailto:vallais.rafael@gmail.com.">vallais.rafael@gmail.com.</a> Tu peux saisir la CNIL (www.cnil.fr).</p>
+<h2>6. Enfants</h2>
+<p>Zinqo n&#x27;est pas destiné aux mineurs de moins de 15 ans.</p>
+<h2>7. Modifications</h2>
+<p>Cette politique peut changer ; la date ci-dessus est mise à jour.</p>
+</div></main>
+<!--FOOT-->
+<footer class="bas"><div class="wrap">
+  <nav aria-label="Pied de page">
+    <a href="aide.html">Aide</a>
+    <a href="licence.html">Licence</a>
+    <a href="confidentialite.html">Confidentialité</a>
+    <a href="mentions.html">Mentions légales</a>
+    <a href="https://github.com/DXTR-Codex/zinqo/releases" rel="noopener">Toutes les versions</a>
+    <a href="mailto:vallais.rafael@gmail.com">Contact</a>
+  </nav>
+  <p>© 2026 Rafael Vallais. Tous droits réservés. Zinqo n'est affilié ni à TikTok, ni à YouTube, ni à Google, ni à NVIDIA, ni à OpenAI. Ce site n'utilise ni cookie, ni traceur, ni police externe.</p>
+  <p>Images du clip : extraits modifiés (recadrage, sous-titres, accroche) de <i>Tears of Steel</i> — (CC) Blender Foundation | <a href="https://mango.blender.org/" rel="noopener">mango.blender.org</a> — <a href="https://creativecommons.org/licenses/by/3.0/deed.fr" rel="noopener">CC-BY 3.0</a>.</p>
+</div></footer>
+<!--/FOOT-->
+</body>
+</html>

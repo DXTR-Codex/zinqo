@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aide · Zinqo</title>
+<meta name="description" content="Réponses aux questions fréquentes sur Zinqo : installation, composants, Gemini, iPhone, mode jeu, mises à jour.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; media-src 'self'; style-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="zinqo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<!--HEAD-->
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html"><img src="zinqo.svg" alt="" width="24" height="24">Zinqo</a>
+  <nav aria-label="Menu principal">
+    <a class="opt" href="index.html#fonctions">Fonctions</a>
+    <a class="opt" href="index.html#config">Configuration</a>
+    <a class="opt" href="index.html#faq">FAQ</a>
+    <a href="aide.html" aria-current="page">Aide</a>
+    <a class="pill js-dl" href="https://github.com/DXTR-Codex/zinqo/releases/latest" rel="noopener">Télécharger</a>
+  </nav>
+</div></header>
+<!--/HEAD-->
+<main id="contenu"><div class="wrap doc">
+
+<h1>Aide</h1>
+<p class="lead">Colle un lien ou glisse une vidéo, clique sur <span class="ui">Lancer</span>. Zinqo trouve les meilleurs moments et en fait des clips verticaux sous-titrés, rangés dans ton dossier Vidéos au nom de la vidéo d'origine.</p>
+<h2>Premier lancement</h2>
+<p>Un court tutoriel s'affiche une fois ; tu peux le rejouer depuis l'onglet Aide du logiciel. Les gros composants (voix Whisper, outils vidéo, accélération NVIDIA) se téléchargent une seule fois : quelques minutes, plusieurs Go avec une carte NVIDIA. Si la connexion coupe, relance : ça reprend.</p>
+<h2>Questions fréquentes</h2>
+<details><summary>Rien ne démarre quand je colle un lien.</summary><div class="rep"><p>C'est voulu : le lien rejoint la file d'attente. Clique sur <span class="ui">Lancer</span>.</p></div></details>
+<details><summary>Le téléchargement est bloqué ou échoue.</summary><div class="rep"><p>Vérifie ta connexion, puis clique sur <span class="ui">Réessayer</span> (il retélécharge aussi un fichier corrompu). Garde environ 5&nbsp;Go libres sur le disque C:.</p></div></details>
+<details><summary>Je n'ai pas de carte NVIDIA.</summary><div class="rep"><p>Ça marche. Les sous-titres sont faits sur le processeur, plus lentement et un peu moins précisément. Rien d'autre ne change.</p></div></details>
+<details><summary>Le clip fait moins de 61 ou plus de 75&nbsp;secondes.</summary><div class="rep"><p>Zinqo vise 65 à 75 secondes. Une vidéo d'origine très courte ne laisse pas assez de matière.</p></div></details>
+<details><summary>Je joue et le logiciel s'arrête.</summary><div class="rep"><p>C'est le mode jeu (Valorant, Fortnite…) : pause pendant ta partie, reprise toute seule ensuite. Tu peux le décocher dans Avancé.</p></div></details>
+<details><summary>Gemini, c'est quoi&nbsp;? Il me faut une clé&nbsp;?</summary><div class="rep"><p>L'IA de Google, qui juge si un moment est vraiment drôle ou intéressant. Facultative : sans clé, Zinqo choisit avec le son, l'image et le texte. La clé est gratuite (Avancé, IA) et reste chiffrée sur ton PC.</p></div></details>
+<details><summary>Où sont mes clips&nbsp;?</summary><div class="rep"><p>Bouton <span class="ui">Ouvrir le dossier</span> sous chaque clip. Le fichier <code>.txt</code> à côté contient le titre et la légende à copier. L'envoi en brouillon vers TikTok est une fonction expérimentale, non disponible pour les autres utilisateurs.</p></div></details>
+<details><summary>Comment poster mes clips depuis l'iPhone&nbsp;?</summary><div class="rep"><p>Deux façons, dans Avancé, iPhone. <strong>Dossier synchronisé</strong> : choisis un dossier iCloud Drive, OneDrive ou Google Drive ; chaque nouveau clip (vidéo, miniature, légende) y est copié et apparaît dans l'appli Fichiers. Les clips faits avant le réglage ne sont pas copiés. <strong>QR code</strong> : coche <span class="ui">Autoriser l'envoi par Wi-Fi</span>, clique sur l'icône téléphone d'un clip et scanne le code avec l'iPhone, sur le même Wi-Fi que le PC. La page donne la vidéo, la légende et l'heure conseillée ; le lien est secret, ne montre que ce clip et expire après 15 minutes.</p><p>Au premier QR, Windows demande l'accès : coche <span class="ui">Réseaux privés</span>, puis <span class="ui">Autoriser l'accès</span>. Si la page ne s'ouvre pas, ton Wi-Fi est peut-être classé « Public » : Paramètres Windows, Réseau et Internet, Wi-Fi, ton réseau, choisis <span class="ui">Privé</span>.</p></div></details>
+<details><summary>Je peux clipper n'importe quelle chaîne&nbsp;?</summary><div class="rep"><p>Non : seulement des vidéos dont tu as les droits ou l'autorisation, en citant la source. Un clip d'un autre créateur n'est pas toujours éligible à la rémunération TikTok. Aucune promesse de vues, d'abonnés ni de revenus.</p></div></details>
+<details><summary>Windows affiche «&nbsp;Windows a protégé votre ordinateur&nbsp;».</summary><div class="rep"><p>Normal pour un logiciel pas encore signé numériquement : ça ne veut pas dire qu'il est dangereux. Clique sur <span class="ui">Informations complémentaires</span>, puis <span class="ui">Exécuter quand même</span>. Ça n'arrive qu'au premier lancement de l'installeur. <a href="index.html#smartscreen">Explication complète</a>.</p></div></details>
+<details><summary>Comment se fait la mise à jour&nbsp;?</summary><div class="rep"><p>Toute seule, au démarrage, quand une nouvelle version existe. Zinqo vérifie sa signature avant de l'installer et revient à la version précédente si quelque chose échoue. Tes réglages et tes clips ne sont pas touchés.</p></div></details>
+<details><summary>Ça plante, ou ça fait un truc bizarre.</summary><div class="rep"><p>Ferme et relance. Si ça continue : Avancé, <span class="ui">Copier le rapport</span>, et envoie-le à l'adresse ci-dessous.</p></div></details>
+<h2>Ce que Zinqo envoie sur Internet</h2>
+<p>L'éditeur ne reçoit rien : ni tes vidéos, ni tes clés, ni tes données. Zinqo parle seulement à ces services :</p>
+<ul>
+<li><strong>YouTube</strong> : l'adresse des vidéos que tu traites et le flux public des chaînes que tu suis. <strong>SponsorBlock</strong> : un identifiant partiel de la vidéo, pour repérer les passages sponsorisés.</li>
+<li><strong>Google Gemini</strong>, seulement si tu as mis ta clé : le texte des passages analysés.</li>
+<li><strong>TikTok</strong>, seulement si tu connectes ton compte (fonction expérimentale) : les clips que tu choisis d'envoyer.</li>
+<li><strong>GitHub, NVIDIA et BtbN</strong> : la recherche de mise à jour au démarrage, l'installeur et les composants.</li>
+</ul>
+<p>Tes cookies de navigateur ne sont lus que si tu actives l'option «&nbsp;Utiliser les cookies de mon navigateur&nbsp;» : sur ton PC, pour récupérer la vidéo, jamais enregistrés ni envoyés à l'éditeur. Détails dans la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+<p class="muted">Contact : <a href="mailto:vallais.rafael@gmail.com">vallais.rafael@gmail.com</a></p>
+
+</div></main>
+<!--FOOT-->
+<footer class="bas"><div class="wrap">
+  <nav aria-label="Pied de page">
+    <a href="aide.html">Aide</a>
+    <a href="licence.html">Licence</a>
+    <a href="confidentialite.html">Confidentialité</a>
+    <a href="mentions.html">Mentions légales</a>
+    <a href="https://github.com/DXTR-Codex/zinqo/releases" rel="noopener">Toutes les versions</a>
+    <a href="mailto:vallais.rafael@gmail.com">Contact</a>
+  </nav>
+  <p>© 2026 Rafael Vallais. Tous droits réservés. Zinqo n'est affilié ni à TikTok, ni à YouTube, ni à Google, ni à NVIDIA, ni à OpenAI. Ce site n'utilise ni cookie, ni traceur, ni police externe.</p>
+  <p>Images du clip : extraits modifiés (recadrage, sous-titres, accroche) de <i>Tears of Steel</i> — (CC) Blender Foundation | <a href="https://mango.blender.org/" rel="noopener">mango.blender.org</a> — <a href="https://creativecommons.org/licenses/by/3.0/deed.fr" rel="noopener">CC-BY 3.0</a>.</p>
+</div></footer>
+<!--/FOOT-->
+</body>
+</html>
