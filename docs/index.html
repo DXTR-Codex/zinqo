@@ -121,14 +121,14 @@
 <section id="config" aria-labelledby="t-config">
 <div class="wrap">
   <h2 class="h2 rv" id="t-config">Configuration.</h2>
-  <dl class="spec rv">
-    <div><dt>Système</dt><dd>Windows 11, ou Windows 10 version 1803 ou plus récente, 64 bits.</dd></div>
-    <div><dt>Carte graphique</dt><dd>NVIDIA conseillée, pas obligatoire. Sans elle, les sous-titres prennent environ 5 à 6 minutes pour 20 minutes de vidéo.</dd></div>
-    <div><dt>Mémoire</dt><dd>8 Go conseillés (estimation).</dd></div>
-    <div><dt>Disque</dt><dd>Environ 4 Go avec NVIDIA (7 Go libres pendant l'installation), 1,2 Go sans (3 Go libres). L'installeur affiche les tailles exactes.</dd></div>
-    <div><dt>Affichage</dt><dd>WebView2 de Microsoft, déjà présent sur Windows 11 et la plupart des Windows 10. S'il manque : <a href="https://developer.microsoft.com/microsoft-edge/webview2/" rel="noopener">page Microsoft</a>.</dd></div>
-    <div><dt>Internet</dt><dd>Pour l'installation (les gros composants arrivent une seule fois) et pour récupérer les vidéos.</dd></div>
-    <div><dt>Droits</dt><dd>Aucun droit administrateur requis.</dd></div>
+  <dl class="spec rv"><!--CONFIG-->
+  <div><dt>Système</dt><dd>Windows 11, ou Windows 10 (version 1803 ou plus récente) en 64 bits</dd></div>
+    <div><dt>Affichage</dt><dd>Composant Microsoft <span class="ui">WebView2</span> (déjà présent sur Windows 11 ; sur certains Windows 10, <a href="https://developer.microsoft.com/microsoft-edge/webview2/" rel="noopener">à installer ici</a>)</dd></div>
+    <div><dt>Mémoire</dt><dd>8 Go conseillés (estimation&nbsp;: testé surtout sur 31 Go)</dd></div>
+    <div><dt>Carte graphique</dt><dd><span class="ui">NVIDIA recommandée</span> (sous-titres rapides). Sans NVIDIA (AMD, Intel ou aucune)&nbsp;: tout marche, en <span class="ui">mode compatible</span>, plus lent (compte environ 5 à 6 minutes de sous-titres pour 20 minutes de vidéo)</dd></div>
+    <div><dt>Place disque</dt><dd>Avec carte NVIDIA&nbsp;: environ 4 Go une fois installé (prévois 7 Go libres pendant l'installation). Sans NVIDIA&nbsp;: environ 1,2 Go (prévois 3 Go libres). Tailles calculées sur les fichiers réels, à confirmer sur la page de l'installeur</dd></div>
+    <div><dt>Internet</dt><dd>Pour télécharger les vidéos et les composants à l'installation</dd></div>
+    <div><dt>Droits</dt><dd>Aucun droit administrateur requis</dd></div><!--/CONFIG-->
   </dl>
 </div>
 </section>
@@ -149,16 +149,34 @@
 <section id="faq" aria-labelledby="t-faq">
 <div class="wrap">
   <h2 class="h2 center rv" id="t-faq">Questions.</h2>
-  <div class="faq rv">
-  <details><summary>C'est vraiment gratuit&nbsp;?</summary><div class="rep"><p>Oui, sans publicité ni abonnement. Zinqo est « tous droits réservés » : tu l'utilises librement, mais tu ne le revends, ne le modifies ni ne le redistribues. Le code n'est pas publié. Voir la <a href="licence.html">licence</a>.</p></div></details>
-  <details><summary>Pourquoi l'installation télécharge des fichiers&nbsp;?</summary><div class="rep"><p>Les gros composants (voix Whisper, outils vidéo, accélération NVIDIA) viennent une seule fois de leur source officielle, pour garder l'installeur léger. Il affiche la liste, la taille et la licence de chacun. Si la connexion coupe, ça reprend.</p></div></details>
-  <details><summary>Je n'ai pas de carte NVIDIA.</summary><div class="rep"><p>Ça marche. Les sous-titres sont faits sur le processeur, plus lentement et un peu moins précisément. Rien d'autre ne change.</p></div></details>
-  <details><summary>Faut-il une clé Gemini&nbsp;?</summary><div class="rep"><p>Non. Elle est facultative, gratuite chez Google, et reste chiffrée sur ton PC. Avec une clé, le texte des passages analysés part chez Google : évite-la pour des contenus sensibles.</p></div></details>
-  <details><summary>Je peux clipper n'importe quelle chaîne&nbsp;?</summary><div class="rep"><p>Non. Seulement des vidéos dont tu as les droits ou l'autorisation. Un clip d'un autre créateur n'est pas toujours éligible à la rémunération TikTok, et ton compte peut être restreint.</p></div></details>
-  <details><summary>Et l'envoi vers TikTok&nbsp;?</summary><div class="rep"><p>C'est une fonction expérimentale, pas disponible pour les autres utilisateurs. Tu publies toi-même : un fichier texte à côté de chaque clip contient le titre et la légende.</p></div></details>
-  <details><summary>Rien ne démarre quand je colle un lien.</summary><div class="rep"><p>C'est voulu : le lien rejoint la file d'attente. Clique sur <span class="ui">Lancer</span>.</p></div></details>
-  <details><summary>Mise à jour, désinstallation&nbsp;?</summary><div class="rep"><p>La mise à jour se fait seule au démarrage : signature vérifiée, retour arrière en cas d'échec. Pour désinstaller : Paramètres Windows, Applications, Zinqo. Tes données (<code>%LOCALAPPDATA%\Zinqo</code>) peuvent être retirées ; tes clips ne sont jamais supprimés.</p></div></details>
-  <details><summary>Qui fait Zinqo&nbsp;?</summary><div class="rep"><p>Rafael Vallais. Zinqo s'appelait Clip Maker avant la version 2.3.0 : tes anciens réglages sont repris automatiquement. Zinqo n'est affilié ni à TikTok, ni à YouTube, ni à Google, ni à NVIDIA, ni à OpenAI.</p></div></details>
+  <div class="faq rv"><!--FAQ-->
+  <details><summary>C'est vraiment gratuit&nbsp;?</summary><div class="rep"><p>Oui, sans publicité ni abonnement. Zinqo est «&nbsp;tous droits réservés&nbsp;»&nbsp;: tu l'utilises librement, mais tu ne le revends, ne le modifies ni ne le redistribues. Le code n'est pas publié. Voir la [licence](licence.html).</p></div></details>
+  <details><summary>Au premier lancement, ça télécharge des fichiers. Pourquoi&nbsp;?</summary><div class="rep">
+<p>Les gros composants (voix Whisper pour les sous-titres, outils vidéo, accélération carte NVIDIA) sont téléchargés une seule fois pour que le logiciel reste léger. Compte quelques minutes (plusieurs Go avec une carte NVIDIA). Si la connexion coupe, relance&nbsp;: ça reprend là où c'était.</p>
+</div></details>
+  <details><summary>Je n'ai pas de carte NVIDIA, ça marche&nbsp;?</summary><div class="rep">
+<p>Oui. Les sous-titres se font avec un modèle plus petit sur le processeur&nbsp;: c'est plus lent et un peu moins précis. Rien d'autre ne change.</p>
+</div></details>
+  <details><summary>Gemini, c'est quoi&nbsp;? Il me faut une clé&nbsp;?</summary><div class="rep">
+<p>Gemini est l'IA de Google qui juge si un moment est vraiment drôle ou intéressant. Elle est facultative&nbsp;: sans clé, Zinqo choisit les moments avec le son, l'image et le texte. La clé est gratuite (Avancé &gt; IA Gemini) et reste chiffrée sur ton PC.</p>
+</div></details>
+  <details><summary>Puis-je clipper n'importe quelle chaîne&nbsp;?</summary><div class="rep">
+<p>Non&nbsp;: ne clippe que les chaînes qui t'y autorisent. Un clip d'un autre créateur n'est pas toujours éligible à la rémunération TikTok. Il n'y a aucune promesse d'abonnés ni de revenus.</p>
+</div></details>
+  <details><summary>Où sont mes clips&nbsp;? Comment les envoyer sur TikTok&nbsp;?</summary><div class="rep">
+<p>Bouton <span class="ui">Ouvrir le dossier</span> sous chaque clip. Le fichier <code>.txt</code> à côté contient le titre et la description à copier. Le bouton noir «&nbsp;Envoyer sur TikTok&nbsp;» envoie le clip en brouillon (si ton compte est connecté).</p>
+</div></details>
+  <details><summary>Rien ne démarre quand je colle un lien.</summary><div class="rep">
+<p>C'est normal&nbsp;: coller ajoute le lien à la «&nbsp;File d'attente&nbsp;». Clique <span class="ui">Lancer</span>.</p>
+</div></details>
+  <details><summary>Windows affiche «&nbsp;Windows a protégé votre ordinateur&nbsp;» ou «&nbsp;éditeur inconnu&nbsp;».</summary><div class="rep">
+<p>C'est normal pour un logiciel qui n'est pas (encore) signé par un éditeur reconnu par Microsoft&nbsp;: ça ne veut pas dire qu'il est dangereux. Clique sur <span class="ui">Informations complémentaires</span>, puis sur <span class="ui">Exécuter quand même</span>. Ça ne s'affiche qu'au premier lancement de l'installeur. Télécharge toujours Zinqo depuis l'adresse officielle donnée par la personne qui te l'a fourni.</p>
+</div></details>
+  <details><summary>Comment mettre à jour Zinqo&nbsp;?</summary><div class="rep">
+<p>Une bannière te prévient quand une nouvelle version existe. Clique <span class="ui">Mettre à jour</span>&nbsp;: tes réglages et tes clips ne sont pas touchés.</p>
+<p>Hors connexion, Zinqo s'ouvre quand même et écrit «&nbsp;Hors ligne&nbsp;: mises à jour non vérifiées&nbsp;» sous la version. Sans vérification réussie depuis plus de 14 jours, un bandeau te le dit&nbsp;: reconnecte-toi ou télécharge la dernière version sur le site (<a href="https://dxtr-codex.github.io/zinqo/" rel="noopener">https://dxtr-codex.github.io/zinqo/</a>).</p>
+</div></details>
+  <details><summary>Qui fait Zinqo&nbsp;?</summary><div class="rep"><p>Rafael Vallais. Zinqo s'appelait Clip Maker avant la version 2.3.0&nbsp;: tes anciens réglages sont repris automatiquement. Zinqo n'est affilié ni à TikTok, ni à YouTube, ni à Google, ni à NVIDIA, ni à OpenAI.</p></div></details><!--/FAQ-->
   <p class="small center rv">Autre chose&nbsp;? Voir l'<a href="aide.html">aide</a>.</p>
   </div>
 </div>

@@ -27,34 +27,60 @@
 </div></header>
 <!--/HEAD-->
 <main id="contenu"><div class="wrap doc">
-
 <h1>Aide</h1>
-<p class="lead">Colle un lien ou glisse une vidéo, clique sur <span class="ui">Lancer</span>. Zinqo trouve les meilleurs moments et en fait des clips verticaux sous-titrés, rangés dans ton dossier Vidéos au nom de la vidéo d'origine.</p>
-<h2>Premier lancement</h2>
-<p>Un court tutoriel s'affiche une fois ; tu peux le rejouer depuis l'onglet Aide du logiciel. Les gros composants (voix Whisper, outils vidéo, accélération NVIDIA) se téléchargent une seule fois : quelques minutes, plusieurs Go avec une carte NVIDIA. Si la connexion coupe, relance : ça reprend.</p>
+<h2>Comment ça marche, en 3 phrases</h2>
+<p>Tu colles un lien YouTube (ou tu glisses une vidéo), tu cliques <span class="ui">Lancer</span>. Zinqo trouve les meilleurs moments, les découpe en format vertical TikTok avec sous-titres et accroche. Tes clips arrivent dans <code>Vidéos\Clip Maker\&lt;nom de la vidéo&gt;</code>.</p>
 <h2>Questions fréquentes</h2>
-<details><summary>Rien ne démarre quand je colle un lien.</summary><div class="rep"><p>C'est voulu : le lien rejoint la file d'attente. Clique sur <span class="ui">Lancer</span>.</p></div></details>
-<details><summary>Le téléchargement est bloqué ou échoue.</summary><div class="rep"><p>Vérifie ta connexion, puis clique sur <span class="ui">Réessayer</span> (il retélécharge aussi un fichier corrompu). Garde environ 5&nbsp;Go libres sur le disque C:.</p></div></details>
-<details><summary>Je n'ai pas de carte NVIDIA.</summary><div class="rep"><p>Ça marche. Les sous-titres sont faits sur le processeur, plus lentement et un peu moins précisément. Rien d'autre ne change.</p></div></details>
-<details><summary>Le clip fait moins de 61 ou plus de 75&nbsp;secondes.</summary><div class="rep"><p>Zinqo vise 65 à 75 secondes. Une vidéo d'origine très courte ne laisse pas assez de matière.</p></div></details>
-<details><summary>Je joue et le logiciel s'arrête.</summary><div class="rep"><p>C'est le mode jeu (Valorant, Fortnite…) : pause pendant ta partie, reprise toute seule ensuite. Tu peux le décocher dans Avancé.</p></div></details>
-<details><summary>Gemini, c'est quoi&nbsp;? Il me faut une clé&nbsp;?</summary><div class="rep"><p>L'IA de Google, qui juge si un moment est vraiment drôle ou intéressant. Facultative : sans clé, Zinqo choisit avec le son, l'image et le texte. La clé est gratuite (Avancé, IA) et reste chiffrée sur ton PC.</p></div></details>
-<details><summary>Où sont mes clips&nbsp;?</summary><div class="rep"><p>Bouton <span class="ui">Ouvrir le dossier</span> sous chaque clip. Le fichier <code>.txt</code> à côté contient le titre et la légende à copier. L'envoi en brouillon vers TikTok est une fonction expérimentale, non disponible pour les autres utilisateurs.</p></div></details>
-<details><summary>Comment poster mes clips depuis l'iPhone&nbsp;?</summary><div class="rep"><p>Deux façons, dans Avancé, iPhone. <strong>Dossier synchronisé</strong> : choisis un dossier iCloud Drive, OneDrive ou Google Drive ; chaque nouveau clip (vidéo, miniature, légende) y est copié et apparaît dans l'appli Fichiers. Les clips faits avant le réglage ne sont pas copiés. <strong>QR code</strong> : coche <span class="ui">Autoriser l'envoi par Wi-Fi</span>, clique sur l'icône téléphone d'un clip et scanne le code avec l'iPhone, sur le même Wi-Fi que le PC. La page donne la vidéo, la légende et l'heure conseillée ; le lien est secret, ne montre que ce clip et expire après 15 minutes.</p><p>Au premier QR, Windows demande l'accès : coche <span class="ui">Réseaux privés</span>, puis <span class="ui">Autoriser l'accès</span>. Si la page ne s'ouvre pas, ton Wi-Fi est peut-être classé « Public » : Paramètres Windows, Réseau et Internet, Wi-Fi, ton réseau, choisis <span class="ui">Privé</span>.</p></div></details>
-<details><summary>Je peux clipper n'importe quelle chaîne&nbsp;?</summary><div class="rep"><p>Non : seulement des vidéos dont tu as les droits ou l'autorisation, en citant la source. Un clip d'un autre créateur n'est pas toujours éligible à la rémunération TikTok. Aucune promesse de vues, d'abonnés ni de revenus.</p></div></details>
-<details><summary>Windows affiche «&nbsp;Windows a protégé votre ordinateur&nbsp;».</summary><div class="rep"><p>Normal pour un logiciel pas encore signé numériquement : ça ne veut pas dire qu'il est dangereux. Clique sur <span class="ui">Informations complémentaires</span>, puis <span class="ui">Exécuter quand même</span>. Ça n'arrive qu'au premier lancement de l'installeur. <a href="index.html#smartscreen">Explication complète</a>.</p></div></details>
-<details><summary>Comment se fait la mise à jour&nbsp;?</summary><div class="rep"><p>Toute seule, au démarrage, quand une nouvelle version existe. Zinqo vérifie sa signature avant de l'installer et revient à la version précédente si quelque chose échoue. Tes réglages et tes clips ne sont pas touchés.</p></div></details>
-<details><summary>Mon Zinqo ne se met plus à jour, ou une mise à jour a échoué.</summary><div class="rep"><p>Télécharge la dernière version sur ce site (bouton <span class="ui">Télécharger</span> en haut de page) et installe-la par-dessus : tes réglages et tes clips sont gardés. Si Zinqo est ouvert, l'installeur te propose de le fermer.</p></div></details>
-<details><summary>Ça plante, ou ça fait un truc bizarre.</summary><div class="rep"><p>Ferme et relance. Si ça continue : Avancé, <span class="ui">Copier le rapport</span>, et envoie-le à l'adresse ci-dessous.</p></div></details>
-<h2>Ce que Zinqo envoie sur Internet</h2>
-<p>L'éditeur ne reçoit rien : ni tes vidéos, ni tes clés, ni tes données. Zinqo parle seulement à ces services :</p>
+
+<details><summary>Rien ne démarre quand je colle un lien.</summary><div class="rep">
+<p>C'est normal&nbsp;: coller ajoute le lien à la «&nbsp;File d'attente&nbsp;». Clique <span class="ui">Lancer</span>.</p>
+</div></details>
+<details><summary>Au premier lancement, ça télécharge des fichiers. Pourquoi&nbsp;?</summary><div class="rep">
+<p>Les gros composants (voix Whisper pour les sous-titres, outils vidéo, accélération carte NVIDIA) sont téléchargés une seule fois pour que le logiciel reste léger. Compte quelques minutes (plusieurs Go avec une carte NVIDIA). Si la connexion coupe, relance&nbsp;: ça reprend là où c'était.</p>
+</div></details>
+<details><summary>Le téléchargement est bloqué ou échoue.</summary><div class="rep">
+<p>Vérifie ta connexion, puis clique <span class="ui">Réessayer</span>. Si le message dit «&nbsp;fichier corrompu&nbsp;», clique <span class="ui">Réessayer</span>&nbsp;: le fichier est retéléchargé. Vérifie aussi l'espace libre sur le disque C: (compte 5 Go).</p>
+</div></details>
+<details><summary>Je n'ai pas de carte NVIDIA, ça marche&nbsp;?</summary><div class="rep">
+<p>Oui. Les sous-titres se font avec un modèle plus petit sur le processeur&nbsp;: c'est plus lent et un peu moins précis. Rien d'autre ne change.</p>
+</div></details>
+<details><summary>Le clip fait moins de 61 secondes / plus de 75 secondes.</summary><div class="rep">
+<p>TikTok ne rémunère que les vidéos de plus d'une minute. Zinqo vise 65 à 75 secondes. Si la vidéo est très courte, il ne peut pas inventer de la matière.</p>
+</div></details>
+<details><summary>Je joue et le logiciel s'arrête.</summary><div class="rep">
+<p>C'est le «&nbsp;mode jeu&nbsp;» (Valorant, Fortnite)&nbsp;: il se met en pause pour ne pas ralentir ta partie et reprend seul quand tu quittes le jeu. Tu peux le décocher dans Avancé.</p>
+</div></details>
+<details><summary>Gemini, c'est quoi&nbsp;? Il me faut une clé&nbsp;?</summary><div class="rep">
+<p>Gemini est l'IA de Google qui juge si un moment est vraiment drôle ou intéressant. Elle est facultative&nbsp;: sans clé, Zinqo choisit les moments avec le son, l'image et le texte. La clé est gratuite (Avancé &gt; IA Gemini) et reste chiffrée sur ton PC.</p>
+</div></details>
+<details><summary>Où sont mes clips&nbsp;? Comment les envoyer sur TikTok&nbsp;?</summary><div class="rep">
+<p>Bouton <span class="ui">Ouvrir le dossier</span> sous chaque clip. Le fichier <code>.txt</code> à côté contient le titre et la description à copier. Le bouton noir «&nbsp;Envoyer sur TikTok&nbsp;» envoie le clip en brouillon (si ton compte est connecté).</p>
+</div></details>
+<details><summary>Puis-je clipper n'importe quelle chaîne&nbsp;?</summary><div class="rep">
+<p>Non&nbsp;: ne clippe que les chaînes qui t'y autorisent. Un clip d'un autre créateur n'est pas toujours éligible à la rémunération TikTok. Il n'y a aucune promesse d'abonnés ni de revenus.</p>
+</div></details>
+<details><summary>Comment poster mes clips depuis l'iPhone&nbsp;?</summary><div class="rep">
+<p>Deux façons, dans Avancé &gt; iPhone.</p>
 <ul>
-<li><strong>YouTube</strong> : l'adresse des vidéos que tu traites et le flux public des chaînes que tu suis. <strong>SponsorBlock</strong> : un identifiant partiel de la vidéo, pour repérer les passages sponsorisés.</li>
-<li><strong>Google Gemini</strong>, seulement si tu as mis ta clé : le texte des passages analysés.</li>
-<li><strong>TikTok</strong>, seulement si tu connectes ton compte (fonction expérimentale) : les clips que tu choisis d'envoyer.</li>
-<li><strong>GitHub, NVIDIA et BtbN</strong> : la recherche de mise à jour au démarrage, l'installeur et les composants.</li>
+<li><strong>Dossier synchronisé</strong>&nbsp;: choisis un dossier iCloud Drive, OneDrive ou Google Drive. Chaque nouveau clip (vidéo, miniature, légende) y est copié ; il apparaît dans l'appli Fichiers de l'iPhone. Les originaux restent sur ton PC. Les clips faits avant le réglage ne sont pas copiés.</li>
+<li><strong>QR code</strong>&nbsp;: coche «&nbsp;Autoriser l'envoi par Wi-Fi&nbsp;», puis clique sur l'icône téléphone d'un clip et scanne le code avec l'appareil photo de l'iPhone (même Wi-Fi que le PC). La page propose la vidéo, la légende à copier et l'heure conseillée. Le lien est secret, ne montre que ce clip et expire au bout de 15 minutes ; l'option est désactivée tant que tu ne la coches pas.</li>
+<li><strong>Heure conseillée</strong>&nbsp;: calculée sur tes clips les mieux vus (il en faut au moins 6 avec stats), sinon «&nbsp;vers 19 h&nbsp;» par défaut.</li>
+<li><strong>Pare-feu Windows</strong>&nbsp;: au premier QR, une boîte s'ouvre. Coche <span class="ui">Réseaux privés</span> puis clique <span class="ui">Autoriser l'accès</span>. Si l'iPhone n'arrive pas à ouvrir la page, ton Wi-Fi est peut-être classé «&nbsp;Public&nbsp;»&nbsp;: Paramètres Windows &gt; Réseau et Internet &gt; Wi-Fi &gt; ton réseau &gt; choisis <span class="ui">Privé</span>.</li>
 </ul>
-<p>Tes cookies de navigateur ne sont lus que si tu actives l'option «&nbsp;Utiliser les cookies de mon navigateur&nbsp;» : sur ton PC, pour récupérer la vidéo, jamais enregistrés ni envoyés à l'éditeur. Détails dans la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+</div></details>
+<details><summary>Windows affiche «&nbsp;Windows a protégé votre ordinateur&nbsp;» ou «&nbsp;éditeur inconnu&nbsp;».</summary><div class="rep">
+<p>C'est normal pour un logiciel qui n'est pas (encore) signé par un éditeur reconnu par Microsoft&nbsp;: ça ne veut pas dire qu'il est dangereux. Clique sur <span class="ui">Informations complémentaires</span>, puis sur <span class="ui">Exécuter quand même</span>. Ça ne s'affiche qu'au premier lancement de l'installeur. Télécharge toujours Zinqo depuis l'adresse officielle donnée par la personne qui te l'a fourni.</p>
+</div></details>
+<details><summary>Comment mettre à jour Zinqo&nbsp;?</summary><div class="rep">
+<p>Une bannière te prévient quand une nouvelle version existe. Clique <span class="ui">Mettre à jour</span>&nbsp;: tes réglages et tes clips ne sont pas touchés.</p>
+<p>Hors connexion, Zinqo s'ouvre quand même et écrit «&nbsp;Hors ligne&nbsp;: mises à jour non vérifiées&nbsp;» sous la version. Sans vérification réussie depuis plus de 14 jours, un bandeau te le dit&nbsp;: reconnecte-toi ou télécharge la dernière version sur le site (<a href="https://dxtr-codex.github.io/zinqo/" rel="noopener">https://dxtr-codex.github.io/zinqo/</a>).</p>
+</div></details>
+<details><summary>Ça plante, ou ça fait un truc bizarre.</summary><div class="rep">
+<p>Ferme et relance. Si ça persiste&nbsp;: Aide &gt; <span class="ui">Signaler un problème</span> fabrique un fichier sur ton Bureau (sans clé ni mot de passe, rien n'est envoyé tout seul) ; envoie-le à la personne qui t'a donné le logiciel.</p>
+</div></details>
+<h2>Ce que Zinqo ne fait jamais</h2>
+<p>Il ne lit pas tes mots de passe. Il ne lit les cookies de ton navigateur que si tu actives l'option «&nbsp;cookies&nbsp;» pour un téléchargement YouTube (l'outil de téléchargement les lit alors sur ton PC pour se connecter à YouTube) ; sinon, jamais. Il ne publie rien sans ton clic, et n'envoie sur Internet que&nbsp;: le lien YouTube, le texte des moments à Gemini (si tu as mis une clé) et le clip vers TikTok (si tu cliques).</p>
+<p>Ce que Zinqo envoie et à qui : voir la <a href="confidentialite.html">politique de confidentialité</a>.</p>
 <p class="muted">Contact : <a href="mailto:vallais.rafael@gmail.com">vallais.rafael@gmail.com</a></p>
 
 </div></main>
