@@ -1,12 +1,12 @@
 {
- "version": "2.3.3",
- "notes": "- Correction : les liens YouTube s'arrêtaient à 15 % avec « auto is not defined ».\n- Correction : tes réglages (style, langue, nombre de clips…) sont de nouveau mémorisés d'un lancement à l'autre.",
+ "version": "2.3.4",
+ "notes": "- Correction : la mise à jour automatique plantait (Remplacant). Elle se répare aussi toute seule, et si elle échoue Zinqo s'ouvre normalement avec un message clair.\n- Nouveau : si Zinqo ne peut pas vérifier ses mises à jour, il le dit discrètement dans sa page (« Hors ligne » sous la version ; bandeau fermable après 14 jours sans vérification).",
  "blocs": [
   {
    "id": "programme",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.3-test/programme-8d2013a56b69.zip",
-   "size": 22779284,
-   "sha256": "8d2013a56b69d0d05909fb2cbf2af1ec59ab05e4dbb907e9e3f30f794d882c88",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.4-test/programme-224b14738c3d.zip",
+   "size": 22787731,
+   "sha256": "224b14738c3d2abc1f5f27ce57b48385e6910b11686bfeca92a77d1a3a8ce351",
    "fichiers": [
     {
      "path": "LISEZMOI.txt",
@@ -15,26 +15,26 @@
     },
     {
      "path": "NOUVEAUTES.txt",
-     "size": 5942,
-     "sha256": "93a4d06bbe2f955d9c8ea68595af33f8084042e448b951df623fe1ad790d9540"
+     "size": 6360,
+     "sha256": "5e5b009557c39d6cc29fba3b8b87aa4ef591e9daa0df8f38ff6e2f887d70a361"
     },
     {
      "path": "Remplacant.exe",
-     "size": 8377636,
-     "sha256": "d823274d2356a62c4b47c3ba49349069b438733d4e99f870aa3455973df410be"
+     "size": 8383278,
+     "sha256": "3ee568004c2e44c60f592781d8b556f24e972a19f982ffbfd2da51fd168adf14"
     },
     {
      "path": "Zinqo.exe",
-     "size": 14836759,
-     "sha256": "86a73c1b1eb457bee4bd167e2bfede41dbcf197357c8a1271a381046374a135c"
+     "size": 14839320,
+     "sha256": "563f0b166090c3ce21a2c2d8ba98b6e6244f3d100d4c579f34e73912214cb47a"
     }
    ]
   },
   {
    "id": "divers",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.3-test/divers-3e78b3ff6fec.zip",
-   "size": 39906790,
-   "sha256": "3e78b3ff6fecab7bb0fbc726d79001a830030d8fe48b20b5076f9a078607f8d2",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.4-test/divers-9d40371d629e.zip",
+   "size": 39906835,
+   "sha256": "9d40371d629eda789ba5e268e3aed2d5c6b15b675904aff1d6898362e6535cae",
    "fichiers": [
     {
      "path": "_internal/MSVCP140_1.dll",
@@ -424,7 +424,7 @@
     {
      "path": "_internal/base_library.zip",
      "size": 1333717,
-     "sha256": "76cbbd70504b1f8b5fe02fe471573e6dc460df4ddff88094a99a2d49a252416d"
+     "sha256": "85133b18adbcba8534eb1f878f0cdc20ac9f4c2cb598b738919c86b09a455dbe"
     },
     {
      "path": "_internal/certifi/cacert.pem",
@@ -463,8 +463,8 @@
     },
     {
      "path": "_internal/clip-maker.html",
-     "size": 230692,
-     "sha256": "e677ef59ead94d2e51032b3e8b858c91db4f8f6f3a1c18894eb6686294cbe653"
+     "size": 232048,
+     "sha256": "e1b11a83f445f535f3c370d0c7f55ac0c7b677a3e78e13eed998f63d6bef75e4"
     },
     {
      "path": "_internal/clr_loader/ffi/dlls/amd64/ClrLoader.dll",
@@ -1088,8 +1088,8 @@
     },
     {
      "path": "_internal/produit/aide.md",
-     "size": 5277,
-     "sha256": "b178f85e82bdf8d17b2e2f8ebc4e4ccecaa5fb8e6a42f7ec34bc340b033d6f5f"
+     "size": 5575,
+     "sha256": "bb0c2f124ef3ed824a1f3e70ace2efccc4230c5dbaccd9be96e27609b9090ced"
     },
     {
      "path": "_internal/produit/cle_gemini.md",
@@ -4555,7 +4555,7 @@
   },
   {
    "id": "ctranslate2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.3-test/ctranslate2-a0161f1c345a.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.4-test/ctranslate2-a0161f1c345a.zip",
    "size": 19224079,
    "sha256": "a0161f1c345aa78cceac2baa3401ec4f26b111ac0e7e84d70b1b923e34df57c5",
    "fichiers": [
@@ -4703,7 +4703,7 @@
   },
   {
    "id": "cv2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.3-test/cv2-fc2581d22750.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.4-test/cv2-fc2581d22750.zip",
    "size": 26480564,
    "sha256": "fc2581d22750024e91ab3fb74b14177e3d6b5703997bc54a95941840521815cc",
    "fichiers": [
@@ -4776,7 +4776,7 @@
   },
   {
    "id": "numpy.libs",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.3-test/numpy.libs-6b74201d52d2.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.4-test/numpy.libs-6b74201d52d2.zip",
    "size": 6757621,
    "sha256": "6b74201d52d2202f5e6c87bb8a41ba3ebbaaae3c1ac8184a4de18936aafea01b",
    "fichiers": [
@@ -4794,7 +4794,7 @@
   },
   {
    "id": "onnxruntime",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.3-test/onnxruntime-90288ac93227.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.3.4-test/onnxruntime-90288ac93227.zip",
    "size": 14878187,
    "sha256": "90288ac932274c97f980a35b56e20fec29ab503b501e43c5f945ba8fd27d2a5f",
    "fichiers": [
