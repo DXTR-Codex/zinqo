@@ -29,17 +29,17 @@
 <main id="contenu"><div class="wrap doc">
 <h1>Aide</h1>
 <h2>Comment ça marche, en 3 phrases</h2>
-<p>Tu colles un lien YouTube (ou tu glisses une vidéo), tu cliques <span class="ui">Lancer</span>. Zinqo trouve les meilleurs moments, les découpe en format vertical TikTok avec sous-titres. Tes clips arrivent dans <code>Vidéos\Clip Maker\&lt;nom de la vidéo&gt;</code>.</p>
+<p>Tu colles un lien YouTube (ou tu glisses une vidéo), tu cliques <span class="ui">Lancer</span>. Zinqo trouve les meilleurs moments, les découpe en format vertical TikTok avec sous-titres. Tes clips arrivent dans <code>Vidéos\Zinqo\&lt;nom de la vidéo&gt;</code>.</p>
 <h2>Questions fréquentes</h2>
 
 <details><summary>Rien ne démarre quand je colle un lien.</summary><div class="rep">
 <p>C'est normal&nbsp;: coller ajoute le lien à la «&nbsp;File d'attente&nbsp;». Clique <span class="ui">Lancer</span>.</p>
 </div></details>
 <details><summary>Au premier lancement, ça télécharge des fichiers. Pourquoi&nbsp;?</summary><div class="rep">
-<p>Les gros composants (voix Whisper pour les sous-titres, outils vidéo, accélération carte NVIDIA) sont téléchargés une seule fois pour que le logiciel reste léger. Compte quelques minutes (plusieurs Go avec une carte NVIDIA). Si la connexion coupe, relance&nbsp;: ça reprend là où c'était.</p>
+<p>Les gros composants (voix Whisper pour les sous-titres, outils vidéo, accélération carte NVIDIA) sont téléchargés une seule fois pour que le logiciel reste léger. Compte quelques minutes (plusieurs Go avec une carte NVIDIA, 1 à 2 Go sans). Si la connexion coupe, relance&nbsp;: ça reprend là où c'était.</p>
 </div></details>
 <details><summary>Le téléchargement est bloqué ou échoue.</summary><div class="rep">
-<p>Vérifie ta connexion, puis clique <span class="ui">Réessayer</span>. Si le message dit «&nbsp;fichier corrompu&nbsp;», clique <span class="ui">Réessayer</span>&nbsp;: le fichier est retéléchargé. Vérifie aussi l'espace libre sur le disque C: (compte 5 Go).</p>
+<p>Vérifie ta connexion, puis clique <span class="ui">Réessayer</span>. Si le message dit «&nbsp;fichier corrompu&nbsp;», clique <span class="ui">Réessayer</span>&nbsp;: le fichier est retéléchargé. Vérifie aussi l'espace libre sur le disque C: (compte 3 Go libres sans carte NVIDIA, 7 Go avec).</p>
 </div></details>
 <details><summary>Je n'ai pas de carte NVIDIA, ça marche&nbsp;?</summary><div class="rep">
 <p>Oui. Les sous-titres se font avec un modèle plus petit sur le processeur&nbsp;: c'est plus lent et un peu moins précis. Rien d'autre ne change.</p>
@@ -57,7 +57,33 @@
 <p>Gemini est l'IA de Google qui juge si un moment est vraiment drôle ou intéressant. Elle est facultative&nbsp;: sans clé, Zinqo choisit les moments avec le son, l'image et le texte. La clé est gratuite (Avancé &gt; IA Gemini) et reste chiffrée sur ton PC.</p>
 </div></details>
 <details><summary>Où sont mes clips&nbsp;? Comment les envoyer sur TikTok&nbsp;?</summary><div class="rep">
-<p>Bouton <span class="ui">Ouvrir le dossier</span> sous chaque clip. Le fichier <code>.txt</code> à côté contient le titre et la description à copier. Le bouton noir «&nbsp;Envoyer sur TikTok&nbsp;» envoie le clip en brouillon (si ton compte est connecté).</p>
+<p>Bouton <span class="ui">Ouvrir le dossier</span> sous chaque clip. Le fichier <code>.txt</code> à côté contient le titre et la description à copier&nbsp;: poste le clip à la main dans TikTok (ou depuis l'iPhone, voir plus bas) et colle la légende. Attention&nbsp;: le bouton «&nbsp;Envoyer sur TikTok&nbsp;» (brouillon direct) ne marche que pour le compte du développeur, car TikTok n'a pas validé l'appli. Pour toi, ne l'utilise pas.</p>
+</div></details>
+<details><summary>Comment désinstaller Zinqo&nbsp;?</summary><div class="rep">
+<p>Paramètres Windows &gt; Applications &gt; Zinqo &gt; Désinstaller. Zinqo te propose d'effacer aussi tes réglages et les composants téléchargés. Tes clips restent dans <code>Vidéos\Zinqo</code>&nbsp;: supprime ce dossier toi-même si tu n'en veux plus.</p>
+</div></details>
+<details><summary>La fenêtre reste blanche (Windows 10).</summary><div class="rep">
+<p>Zinqo a besoin de «&nbsp;WebView2&nbsp;», déjà présent dans Windows 11. Sous Windows 10, cherche «&nbsp;WebView2 Runtime&nbsp;» sur le site de Microsoft, installe-le, puis relance Zinqo.</p>
+</div></details>
+<details><summary>Combien de temps ça prend&nbsp;?</summary><div class="rep">
+<p>À titre indicatif, une vidéo de 20 minutes demande de 5 à 15 minutes pour donner ses clips (plus avec un PC sans carte NVIDIA). Le temps dépend de ton PC&nbsp;: la bannière du haut montre l'avancement.</p>
+</div></details>
+<details><summary>J'ai cliqué sur «&nbsp;Plus tard&nbsp;» au premier lancement.</summary><div class="rep">
+<p>Zinqo s'ouvre, mais il ne pourra pas faire les sous-titres ou le montage tant qu'il manque des éléments. Au prochain lancement, la fenêtre revient&nbsp;: clique <span class="ui">Télécharger</span>.</p>
+</div></details>
+<details><summary>Où je retrouve mes clips dans Zinqo&nbsp;?</summary><div class="rep">
+<p>Dans l'onglet <span class="ui">Clips</span> (il apparaît après ton premier clip). Chaque clip est dans «&nbsp;À poster&nbsp;». Quand tu l'as publié, coche <span class="ui">Posté</span>. S'il ne te plaît pas, clique <span class="ui">Rejeter</span>&nbsp;: la vidéo part à la Corbeille Windows (récupérable). Tu peux trier la liste, et <span class="ui">Statistiques…</span> montre les vues de tes clips postés.</p>
+</div></details>
+<details><summary>Je mets plusieurs vidéos, comment ça se passe&nbsp;?</summary><div class="rep">
+<p>Elles passent l'une après l'autre dans la <span class="ui">File d'attente</span>. <span class="ui">Arrêter</span> met la file en pause&nbsp;: <span class="ui">Continuer la file</span> la reprend. <span class="ui">Effacer les terminées</span> nettoie la liste.</p>
+</div></details>
+<details><summary>À quoi servent les réglages d'Avancé&nbsp;?</summary><div class="rep">
+<ul>
+<li><strong>Analyse</strong>&nbsp;: le type de vidéo (humour, jeu, podcast… ou Auto) aide Zinqo à choisir les bons moments ; le teaser met un extrait fort au tout début du clip.</li>
+<li><strong>Sous-titres</strong>&nbsp;: la langue de la vidéo, le style (Viral par défaut) et un emoji facultatif.</li>
+<li><strong>Lancement</strong>&nbsp;: <span class="ui">Relire chaque clip</span> te laisse corriger sous-titres, début et fin avant l'export. <span class="ui">Canal test</span>&nbsp;: laisse décoché, c'est pour recevoir des versions en avance.</li>
+<li><strong>Veille</strong>&nbsp;: tu suis une chaîne YouTube, et ses nouvelles vidéos sont ajoutées seules à la file tant que Zinqo est ouvert. Ne suis que des chaînes qui t'y autorisent.</li>
+</ul>
 </div></details>
 <details><summary>Puis-je clipper n'importe quelle chaîne&nbsp;?</summary><div class="rep">
 <p>Non&nbsp;: ne clippe que les chaînes qui t'y autorisent. Un clip d'un autre créateur n'est pas toujours éligible à la rémunération TikTok. Il n'y a aucune promesse d'abonnés ni de revenus.</p>
@@ -72,7 +98,7 @@
 </ul>
 </div></details>
 <details><summary>Windows affiche «&nbsp;Windows a protégé votre ordinateur&nbsp;» ou «&nbsp;éditeur inconnu&nbsp;».</summary><div class="rep">
-<p>C'est normal pour un logiciel qui n'est pas (encore) signé par un éditeur reconnu par Microsoft&nbsp;: ça ne veut pas dire qu'il est dangereux. Clique sur <span class="ui">Informations complémentaires</span>, puis sur <span class="ui">Exécuter quand même</span>. Ça ne s'affiche qu'au premier lancement de l'installeur. Télécharge toujours Zinqo depuis l'adresse officielle donnée par la personne qui te l'a fourni.</p>
+<p>C'est normal pour un logiciel qui n'est pas (encore) signé par un éditeur reconnu par Microsoft&nbsp;: ça ne veut pas dire qu'il est dangereux. Clique sur <span class="ui">Informations complémentaires</span>, puis sur <span class="ui">Exécuter quand même</span>. Ça ne s'affiche qu'au premier lancement de l'installeur. Télécharge toujours Zinqo depuis le site officiel&nbsp;: <a href="https://dxtr-codex.github.io/zinqo/" rel="noopener">https://dxtr-codex.github.io/zinqo/</a></p>
 </div></details>
 <details><summary>Comment mettre à jour Zinqo&nbsp;?</summary><div class="rep">
 <p>Une bannière te prévient quand une nouvelle version existe. Clique <span class="ui">Mettre à jour</span>&nbsp;: tes réglages et tes clips ne sont pas touchés.</p>
@@ -82,7 +108,7 @@
 <p>Ferme et relance. Si ça persiste&nbsp;: Aide &gt; <span class="ui">Signaler un problème</span> fabrique un fichier sur ton Bureau (sans clé ni mot de passe, rien n'est envoyé tout seul) ; envoie-le à la personne qui t'a donné le logiciel.</p>
 </div></details>
 <h2>Ce que Zinqo ne fait jamais</h2>
-<p>Il ne lit pas tes mots de passe. Il ne lit les cookies de ton navigateur que si tu actives l'option «&nbsp;cookies&nbsp;» pour un téléchargement YouTube (l'outil de téléchargement les lit alors sur ton PC pour se connecter à YouTube) ; sinon, jamais. Il ne publie rien sans ton clic, et n'envoie sur Internet que&nbsp;: le lien YouTube, le texte des moments à Gemini (si tu as mis une clé) et le clip vers TikTok (si tu cliques).</p>
+<p>Il ne lit pas tes mots de passe. Il ne lit les cookies de ton navigateur que si tu actives l'option «&nbsp;cookies&nbsp;» pour un téléchargement YouTube (l'outil de téléchargement les lit alors sur ton PC pour se connecter à YouTube) ; sinon, jamais. Il ne publie rien sans ton clic, et n'envoie sur Internet que&nbsp;: le lien YouTube, le texte des moments à Gemini (si tu as mis une clé) et le clip vers TikTok (seulement si tu cliques sur le bouton d'envoi, réservé au compte du développeur).</p>
 <p>Ce que Zinqo envoie et à qui : voir la <a href="confidentialite.html">politique de confidentialité</a>.</p>
 <p class="muted">Contact : <a href="mailto:vallais.rafael@gmail.com">vallais.rafael@gmail.com</a></p>
 
