@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nouveautés · Zinqo</title>
+<meta name="description" content="Les dernières versions de Zinqo et ce qui a changé dans chacune.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; media-src 'self'; style-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'none'; form-action 'none'">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="zinqo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<!--HEAD-->
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html"><img src="zinqo.svg" alt="" width="24" height="24">Zinqo</a>
+  <nav aria-label="Menu principal">
+    <a class="opt" href="index.html#fonctions">Fonctions</a>
+    <a class="opt" href="index.html#config">Configuration</a>
+    <a class="opt" href="index.html#faq">FAQ</a>
+    <a href="aide.html">Aide</a>
+    <a href="nouveautes.html" aria-current="page">Nouveautés</a>
+    <a class="pill js-dl" href="https://github.com/DXTR-Codex/zinqo/releases/latest" rel="noopener">Télécharger</a>
+  </nav>
+</div></header>
+<!--/HEAD-->
+<main id="contenu"><div class="wrap doc">
+<h1>Nouveautés</h1>
+<p class="lead">Ce qui a changé dans les dernières versions de Zinqo. Le logiciel te propose lui-même chaque mise à jour.</p>
+<h2 id="v2-3-8">Version 2.3.8</h2>
+<p class="dates">21/11/2026</p>
+<ul>
+<li>Onglet Clips&nbsp;: les clips rejetés, les clips postés (même si leur vidéo est à la Corbeille) et ceux dont tu as supprimé le fichier à la main n'apparaissent plus dans la liste (ils ne sont pas effacés de l'historique). La liste se met à jour toute seule quand on revient sur la fenêtre. Le filtre «&nbsp;Postés&nbsp;» disparaît. Les compteurs du haut (postés, rejetés, Mo libérés) et les statistiques ne changent pas.</li>
+</ul>
+<h2 id="v2-3-7">Version 2.3.7</h2>
+<p class="dates">21/11/2026</p>
+<ul>
+<li>Quand Google est surchargé, Zinqo attend et réessaie (après 2, 5 puis 10 secondes, puis avec un autre modèle de secours) au lieu d'abandonner l'IA, et écrit «&nbsp;Google est surchargé, nouvel essai dans 5 s…&nbsp;» dans l'analyse. Si Google ne répond vraiment pas&nbsp;: «&nbsp;IA indisponible pour l'instant&nbsp;: clips choisis sans IA&nbsp;».</li>
+</ul>
+<h2 id="v2-3-6">Version 2.3.6</h2>
+<p class="dates">21/11/2026</p>
+<ul>
+<li>Aide et tutoriel complétés&nbsp;: désinstaller, Windows 10 (page blanche), durée d'attente, onglet Clips, file d'attente, réglages d'Avancé, «&nbsp;Plus tard&nbsp;» au premier lancement. Le tutoriel en bulles a 3 bulles de plus (Montage, onglet Clips, Aide).</li>
+<li>Envoi TikTok expliqué honnêtement&nbsp;: le brouillon direct ne marche que pour le compte du développeur (TikTok n'a pas validé l'appli) ; pour toi, poste à la main avec la légende copiée, ou depuis l'iPhone.</li>
+<li>Corrections dans l'aide&nbsp;: où sont rangés tes clips (dossier Vidéos, sous-dossier Zinqo), espace disque nécessaire (3 Go sans carte NVIDIA, 7 Go avec), clé Gemini (plus de mention d'une «&nbsp;IA locale&nbsp;» ni d'un bouton qui n'existe pas).</li>
+</ul>
+<h2 id="v2-3-5">Version 2.3.5</h2>
+<p class="dates">21/11/2026</p>
+<ul>
+<li>Nouveau&nbsp;: onglet Avancé &gt; Montage, minimaliste&nbsp;: titre en haut (éteint par défaut), sous-titres et leur taille, cadrage (fond flou, plein écran recadré, suivre le visage), montage dynamique (zooms doux et silences coupés). Tes choix sont mémorisés.</li>
+<li>Le titre rouge incrusté en haut du clip n'est plus mis par défaut (tu peux le rallumer dans Montage).</li>
+<li>Correction&nbsp;: après un clip terminé, on peut de nouveau clipper une vidéo, y compris le même lien (il était refusé comme «&nbsp;déjà dans la file&nbsp;»).</li>
+<li>Image plus nette&nbsp;: la vidéo est moins compressée (même vitesse, fichiers plus gros).</li>
+</ul>
+<h2 id="v2-3-4">Version 2.3.4</h2>
+<p class="dates">21/11/2026</p>
+<ul>
+<li>Correction&nbsp;: la mise à jour automatique pouvait échouer. Elle se répare maintenant toute seule, et si elle échoue Zinqo s'ouvre normalement avec un message clair.</li>
+<li>Nouveau&nbsp;: si Zinqo ne peut pas vérifier ses mises à jour, il le dit discrètement dans sa page («&nbsp;Hors ligne&nbsp;» sous la version ; bandeau fermable après 14 jours sans vérification).</li>
+</ul>
+<h2 id="v2-3-3">Version 2.3.3</h2>
+<p class="dates">21/11/2026</p>
+<ul>
+<li>Correction&nbsp;: les liens YouTube s'arrêtaient à 15 % avec un message d'erreur incompréhensible.</li>
+<li>Correction&nbsp;: tes réglages (style, langue, nombre de clips…) sont de nouveau mémorisés d'un lancement à l'autre.</li>
+</ul>
+<p>Toutes les versions et leurs fichiers : <a href="https://github.com/DXTR-Codex/zinqo/releases" rel="noopener">page des versions sur GitHub</a>.</p>
+
+</div></main>
+<!--FOOT-->
+<footer class="bas"><div class="wrap">
+  <nav aria-label="Pied de page">
+    <a href="aide.html">Aide</a>
+    <a href="nouveautes.html">Nouveautés</a>
+    <a href="licence.html">Licence</a>
+    <a href="confidentialite.html">Confidentialité</a>
+    <a href="mentions.html">Mentions légales</a>
+    <a href="https://github.com/DXTR-Codex/zinqo/releases" rel="noopener">Toutes les versions</a>
+    <a href="mailto:vallais.rafael@gmail.com">Contact</a>
+  </nav>
+  <p>© 2026 Rafael Vallais. Tous droits réservés. Zinqo n'est affilié ni à TikTok, ni à YouTube, ni à Google, ni à NVIDIA, ni à OpenAI. Ce site n'utilise ni cookie, ni traceur, ni police externe.</p>
+  <p>Images du clip : extraits modifiés (recadrage, sous-titres, accroche) de <i>Tears of Steel</i> — (CC) Blender Foundation | <a href="https://mango.blender.org/" rel="noopener">mango.blender.org</a> — <a href="https://creativecommons.org/licenses/by/3.0/deed.fr" rel="noopener">CC-BY 3.0</a>.</p>
+</div></footer>
+<!--/FOOT-->
+</body>
+</html>
