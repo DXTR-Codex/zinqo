@@ -1,12 +1,12 @@
 {
- "version": "2.4.5",
- "notes": "- Éditeur : codes d'activation mieux affichés, codes annulés masqués et supprimables.",
+ "version": "2.4.6",
+ "notes": "",
  "blocs": [
   {
    "id": "programme",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.5-test/programme-f802f956e521.zip",
-   "size": 22821640,
-   "sha256": "f802f956e521941fda02e12cb3ee8575332625bcfe554ab6e02fdf01eb4c5643",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.6-test/programme-288627881bb1.zip",
+   "size": 22819463,
+   "sha256": "288627881bb199e4d7061dde6636092f6c106815cf6f531cfff25524ff0786c4",
    "fichiers": [
     {
      "path": "LISEZMOI.txt",
@@ -15,26 +15,26 @@
     },
     {
      "path": "NOUVEAUTES.txt",
-     "size": 10371,
-     "sha256": "50f9c66191446c5941af895e4af8a151f973c6ad23229d7a4a71d295469ff94f"
+     "size": 10222,
+     "sha256": "93e82fe02edccffa2ba21e82965b2eb909d963b2d6fa271b0609fc767c3d3cbc"
     },
     {
      "path": "Remplacant.exe",
-     "size": 8384898,
-     "sha256": "e5b083b702726a0756766b14e5cdf62d41c44a4faee6b7b06692746badeef4c0"
+     "size": 8382961,
+     "sha256": "bd60104e62ad27afe1809e49621fb5d2f0faa9d1a55cdc1c7150ad5aa26bba94"
     },
     {
      "path": "Zinqo.exe",
      "size": 14872451,
-     "sha256": "78022badeddd9cd05088f1a84674f641b6c08f273f112d9db632a7989e2b7dc5"
+     "sha256": "9cbf0dcbacf23cccc260440feefffd68587a5777ecb740e9d00004d2713ae0ff"
     }
    ]
   },
   {
    "id": "divers",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.5-test/divers-eeb8db161b6e.zip",
-   "size": 39915752,
-   "sha256": "eeb8db161b6e8a9c62d8124fae7f7061dfd80d5645131242b10ec26356453e4c",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.6-test/divers-92b4ff841b6a.zip",
+   "size": 39917016,
+   "sha256": "92b4ff841b6ae08db2d0c0fa8867d499ef32cd0effba506f2bef8158e813149e",
    "fichiers": [
     {
      "path": "_internal/MSVCP140_1.dll",
@@ -429,7 +429,7 @@
     {
      "path": "_internal/base_library.zip",
      "size": 1333717,
-     "sha256": "dbffc9936c110fcf3d0bef374bd20e06b7e4c75a7a4a3f04a2d7a9036f563e72"
+     "sha256": "bdcf1e14f86a7c4bb37ae27360467614f8a28ce801d8a429970129243843d762"
     },
     {
      "path": "_internal/certifi/cacert.pem",
@@ -468,8 +468,8 @@
     },
     {
      "path": "_internal/clip-maker.html",
-     "size": 248699,
-     "sha256": "b6e496665e91d37844571769a02e860e5a7f19ac18a169f2f89f2908317efca7"
+     "size": 249306,
+     "sha256": "32fd91a621f66732c4409e3326ec8e8eeb7a7ace8a32cdc87bcb40d6c2b43b82"
     },
     {
      "path": "_internal/clr_loader/ffi/dlls/amd64/ClrLoader.dll",
@@ -4560,7 +4560,7 @@
   },
   {
    "id": "ctranslate2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.5-test/ctranslate2-a0161f1c345a.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.6-test/ctranslate2-a0161f1c345a.zip",
    "size": 19224079,
    "sha256": "a0161f1c345aa78cceac2baa3401ec4f26b111ac0e7e84d70b1b923e34df57c5",
    "fichiers": [
@@ -4708,7 +4708,7 @@
   },
   {
    "id": "cv2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.5-test/cv2-fc2581d22750.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.6-test/cv2-fc2581d22750.zip",
    "size": 26480564,
    "sha256": "fc2581d22750024e91ab3fb74b14177e3d6b5703997bc54a95941840521815cc",
    "fichiers": [
@@ -4781,7 +4781,7 @@
   },
   {
    "id": "numpy.libs",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.5-test/numpy.libs-6b74201d52d2.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.6-test/numpy.libs-6b74201d52d2.zip",
    "size": 6757621,
    "sha256": "6b74201d52d2202f5e6c87bb8a41ba3ebbaaae3c1ac8184a4de18936aafea01b",
    "fichiers": [
@@ -4799,7 +4799,7 @@
   },
   {
    "id": "onnxruntime",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.5-test/onnxruntime-90288ac93227.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.6-test/onnxruntime-90288ac93227.zip",
    "size": 14878187,
    "sha256": "90288ac932274c97f980a35b56e20fec29ab503b501e43c5f945ba8fd27d2a5f",
    "fichiers": [
@@ -6394,82 +6394,6 @@
      "sha256": "b77a639be84b4ffc68fa7810e3f7bbf441b87644e02caa8f44ba5a61ec096ab4"
     }
    ]
-  }
- ],
- "composants": [
-  {
-   "id": "ffmpeg",
-   "url": "https://github.com/FFmpeg-Builds/FFmpeg-Builds/releases/download/autobuild-2026-10-31-12-59/ffmpeg-N-128227-g4811625b5f-win64-gpl.zip",
-   "size": 201662768,
-   "sha256": "3a5cdb3b83dd1b62b29d946d3655a14d787e5e81d947ad68202a1a400095d2f8",
-   "dest": "ffmpeg",
-   "extract": "zip",
-   "installe": 339654987,
-   "garder": [
-    [
-     "ffmpeg-N-128227-g4811625b5f-win64-gpl/bin/ffmpeg.exe",
-     "ffmpeg.exe"
-    ],
-    [
-     "ffmpeg-N-128227-g4811625b5f-win64-gpl/bin/ffprobe.exe",
-     "ffprobe.exe"
-    ],
-    [
-     "ffmpeg-N-128227-g4811625b5f-win64-gpl/LICENSE.txt",
-     "LICENSE.txt"
-    ]
-   ]
-  },
-  {
-   "id": "yt-dlp",
-   "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp.exe",
-   "size": 23575744,
-   "sha256": "f5389d3698ecde4ef06f4e6b1ce0294fe9ac1396228c8990b8d3416d6d177a7d",
-   "dest": "yt-dlp/yt-dlp.exe",
-   "installe": 23575744
-  },
-  {
-   "id": "cuda",
-   "url": "https://files.pythonhosted.org/packages/20/e2/fc9a0e985249d873150276d5afb02e39a66817fedbf1a385724393e505ed/nvidia_cublas_cu12-12.9.2.10-py3-none-win_amd64.whl",
-   "size": 553162896,
-   "sha256": "623f43027d40d44ceadf0043f002bd25cf353e8f13ce90b9a87057019f560661",
-   "dest": "nvidia",
-   "extract": "zip",
-   "requires": "nvidia",
-   "installe": 771251070,
-   "garder": [
-    [
-     "nvidia/cublas/bin/cublas64_12.dll",
-     "cublas/bin/cublas64_12.dll"
-    ],
-    [
-     "nvidia/cublas/bin/cublasLt64_12.dll",
-     "cublas/bin/cublasLt64_12.dll"
-    ],
-    [
-     "nvidia_cublas_cu12-12.9.2.10.dist-info/licenses/License.txt",
-     "cublas/License.txt"
-    ]
-   ]
-  },
-  {
-   "id": "whisper-large-v3-turbo",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/composants-1/whisper-large-v3-turbo-24f5dbc32d70.zip",
-   "size": 1492333836,
-   "sha256": "24f5dbc32d70ec322e5a2085ed4d6804aaa91f694689e702deac606c39a48819",
-   "dest": "whisper-large-v3-turbo",
-   "extract": "zip",
-   "installe": 1621667067,
-   "requires": "nvidia"
-  },
-  {
-   "id": "whisper-small",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/composants-1/whisper-small-0ad5c667bae3.zip",
-   "size": 446456970,
-   "sha256": "0ad5c667bae3934bd81c6864672ab09ba65ae26bf79f09ead135862de3aee0c9",
-   "dest": "whisper-small",
-   "extract": "zip",
-   "installe": 486213456
   }
  ]
 }
