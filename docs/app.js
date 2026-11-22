@@ -32,9 +32,9 @@
     });
   });
 
-  // 3. Lien direct vers le dernier installeur, lu sur l'API publique de GitHub.
-  // Si l'appel échoue, les boutons gardent l'adresse « dernière version » et le texte générique.
-  if (!window.fetch) return;
+  // 3. Page Télécharger seulement : lien direct vers le dernier installeur, lu sur l'API publique de GitHub.
+  // Si l'appel échoue, le bouton garde l'adresse « dernière version » et le texte générique.
+  if (!window.fetch || !document.querySelector('.js-dl')) return;
   var ctrl = window.AbortController ? new AbortController() : null;
   var timer = setTimeout(function () { if (ctrl) ctrl.abort(); }, 6000);
   fetch('https://api.github.com/repos/DXTR-Codex/zinqo/releases/latest', {
