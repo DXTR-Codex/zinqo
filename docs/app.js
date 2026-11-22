@@ -1,4 +1,4 @@
-// Zinqo · site. Aucun cookie, aucun traceur publicitaire ; un compteur de visites anonyme (voir 4).
+// Zinqo · site. Aucun cookie, aucun traceur publicitaire ; un compteur de visites anonyme (voir 3).
 (function () {
   // 1. Apparition douce au défilement, seulement si le mouvement est permis (sinon tout reste visible).
   var root = document.documentElement;
@@ -32,7 +32,17 @@
     });
   });
 
-  // 3. Page Télécharger seulement : lien direct vers le dernier installeur, lu sur l'API publique de GitHub.
+  // 3. Compteur de visites anonyme (GoatCounter) : une image vers zinqo.goatcounter.com avec la page, son titre et le site
+  // d'où vient le visiteur. Pas de cookie, pas de script externe, rien d'enregistré sur l'appareil ; seulement sur le vrai site.
+  if (location.hostname === 'dxtr-codex.github.io') {
+    try {
+      new Image().src = 'https://zinqo.goatcounter.com/count?p=' + encodeURIComponent(location.pathname) +
+        '&t=' + encodeURIComponent(document.title) + '&r=' + encodeURIComponent(document.referrer) +
+        '&rnd=' + Math.random().toString(36).slice(2);
+    } catch (e) { /* compteur facultatif */ }
+  }
+
+  // 4. Page Télécharger seulement : lien direct vers le dernier installeur, lu sur l'API publique de GitHub.
   // Si l'appel échoue, le bouton garde l'adresse « dernière version » et le texte générique.
   if (!window.fetch || !document.querySelector('.js-dl')) return;
   var ctrl = window.AbortController ? new AbortController() : null;
@@ -55,14 +65,4 @@
     })
     .catch(function () { /* repli : texte et lien par défaut */ })
     .then(function () { clearTimeout(timer); });
-
-  // 4. Compteur de visites anonyme (GoatCounter) : une image vers zinqo.goatcounter.com avec la page, son titre et le site
-  // d'où vient le visiteur. Pas de cookie, pas de script externe, rien d'enregistré sur l'appareil ; seulement sur le vrai site.
-  if (location.hostname === 'dxtr-codex.github.io') {
-    try {
-      new Image().src = 'https://zinqo.goatcounter.com/count?p=' + encodeURIComponent(location.pathname) +
-        '&t=' + encodeURIComponent(document.title) + '&r=' + encodeURIComponent(document.referrer) +
-        '&rnd=' + Math.random().toString(36).slice(2);
-    } catch (e) { /* compteur facultatif */ }
-  }
 })();
