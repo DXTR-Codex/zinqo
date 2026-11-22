@@ -75,6 +75,11 @@ section{padding:96px 0}
 .doc .nouv h2{margin:0}
 .doc .nouv ul{margin:10px 0 0;padding-left:20px;color:var(--muted)}
 .doc .nouv li{margin:4px 0}
+.nouv:has(.nc2){max-width:980px}
+.nc2{display:grid;grid-template-columns:4fr 6fr;gap:0 26px}
+.nc2>div+div{padding-left:26px;border-left:1px solid var(--line)}
+.nc2 .nh{display:block}
+.nc2 .nh .small{display:block;margin-top:2px}
 .nh{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px}
 .doc .how{margin-top:20px}
 .dl{margin:28px 0 8px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
@@ -200,5 +205,7 @@ code{font:14px ui-monospace,SFMono-Regular,Consolas,monospace;background:var(--s
   .hero{padding-top:48px}
   .stage{margin-top:44px;padding-bottom:28px}
   .tl,.nouv{padding:20px;border-radius:18px}
+  .nc2{grid-template-columns:1fr}
+  .nc2>div+div{padding:16px 0 0;margin-top:16px;border-left:0;border-top:1px solid var(--line)}
   .how li{font-size:17px}
 }
