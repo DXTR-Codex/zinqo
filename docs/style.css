@@ -71,6 +71,10 @@ section{padding:96px 0}
 .nouv h2{font-size:21px;letter-spacing:-.02em}
 .nouv ul{margin:10px 0 0;padding-left:20px;font-size:16px;color:var(--muted)}
 .nouv li{margin:4px 0}
+.doc .nouv{max-width:none;margin:0 0 8px}
+.doc .nouv h2{margin:0}
+.doc .nouv ul{margin:10px 0 0;padding-left:20px;color:var(--muted)}
+.doc .nouv li{margin:4px 0}
 .nh{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px}
 .doc .how{margin-top:20px}
 .dl{margin:28px 0 8px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
