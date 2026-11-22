@@ -1,12 +1,12 @@
 {
- "version": "2.4.7",
- "notes": "",
+ "version": "2.4.8",
+ "notes": "- iPhone : la vidéo peut aller directement dans Photos grâce à un raccourci (voir l'aide).",
  "blocs": [
   {
    "id": "programme",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.7-test/programme-ce4795249583.zip",
-   "size": 22820655,
-   "sha256": "ce4795249583097f356b351d1cb6ce3e270b5cdcf8bb6aa2b249f53af53ec53a",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.8-test/programme-a914b3619a4d.zip",
+   "size": 22821405,
+   "sha256": "a914b3619a4d47dda0ac801021efd0ae958d1673f061e6c7bea364d74b4d4c4b",
    "fichiers": [
     {
      "path": "LISEZMOI.txt",
@@ -15,26 +15,26 @@
     },
     {
      "path": "NOUVEAUTES.txt",
-     "size": 10222,
-     "sha256": "93e82fe02edccffa2ba21e82965b2eb909d963b2d6fa271b0609fc767c3d3cbc"
+     "size": 10469,
+     "sha256": "13cfedd8aadc6195f488df83c5b0229bddacb45a20aa03407f8462200ca78e95"
     },
     {
      "path": "Remplacant.exe",
-     "size": 8384162,
-     "sha256": "63ee690ab6c449ac3ed909c6177986063eb1d38b3b0b26cb4c953d7fd03d5e28"
+     "size": 8384529,
+     "sha256": "797f593db57161b20f3b7b78cfb36c6547e7bed47bdf931587ddea6718cf66d2"
     },
     {
      "path": "Zinqo.exe",
-     "size": 14872452,
-     "sha256": "66494e977d9c9f63cd3db14d1547150a06b10bc94315a257752e0205a90060d5"
+     "size": 14872717,
+     "sha256": "5e80f8e7cf7e7a518bef99ed26c7bb61e23f029cd7117ce1ab1a67daf56576d3"
     }
    ]
   },
   {
    "id": "divers",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.7-test/divers-2e3ac79be059.zip",
-   "size": 39916578,
-   "sha256": "2e3ac79be059a267642f394a66311d162468e50f86ad4cb7bc2ec7aaa8e6acc9",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.8-test/divers-2857ae81baea.zip",
+   "size": 39914513,
+   "sha256": "2857ae81baeaed1b6f2edc8be943e34101c16f85f7eebcc8af10644d2218cf79",
    "fichiers": [
     {
      "path": "_internal/MSVCP140_1.dll",
@@ -429,7 +429,7 @@
     {
      "path": "_internal/base_library.zip",
      "size": 1333717,
-     "sha256": "42c25719dd39f062520fe0f30571efb033d464c2be6887a5bae5bda4025034cb"
+     "sha256": "17446507e54f51c8563fb1bb799acf50e8900a0b320253f6beefdecac0f25bc3"
     },
     {
      "path": "_internal/certifi/cacert.pem",
@@ -1093,8 +1093,8 @@
     },
     {
      "path": "_internal/produit/aide.md",
-     "size": 9070,
-     "sha256": "5a573b9edce8a5f59b7e7f9bb3fdfb4655086d8cd5576a88f85c97e205575f76"
+     "size": 9522,
+     "sha256": "b764e616ccfa5fb6ab374d34de38b3016cb9363ed00300e12875c33958f59115"
     },
     {
      "path": "_internal/produit/cle_gemini.md",
@@ -4560,7 +4560,7 @@
   },
   {
    "id": "ctranslate2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.7-test/ctranslate2-a0161f1c345a.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.8-test/ctranslate2-a0161f1c345a.zip",
    "size": 19224079,
    "sha256": "a0161f1c345aa78cceac2baa3401ec4f26b111ac0e7e84d70b1b923e34df57c5",
    "fichiers": [
@@ -4708,7 +4708,7 @@
   },
   {
    "id": "cv2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.7-test/cv2-fc2581d22750.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.8-test/cv2-fc2581d22750.zip",
    "size": 26480564,
    "sha256": "fc2581d22750024e91ab3fb74b14177e3d6b5703997bc54a95941840521815cc",
    "fichiers": [
@@ -4781,7 +4781,7 @@
   },
   {
    "id": "numpy.libs",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.7-test/numpy.libs-6b74201d52d2.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.8-test/numpy.libs-6b74201d52d2.zip",
    "size": 6757621,
    "sha256": "6b74201d52d2202f5e6c87bb8a41ba3ebbaaae3c1ac8184a4de18936aafea01b",
    "fichiers": [
@@ -4799,7 +4799,7 @@
   },
   {
    "id": "onnxruntime",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.7-test/onnxruntime-90288ac93227.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.8-test/onnxruntime-90288ac93227.zip",
    "size": 14878187,
    "sha256": "90288ac932274c97f980a35b56e20fec29ab503b501e43c5f945ba8fd27d2a5f",
    "fichiers": [
