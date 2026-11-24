@@ -1,12 +1,12 @@
 {
- "version": "2.4.10",
- "notes": "- Choix des clips Viral : l'IA Gemini compare plus de passages et sa note décide vraiment du classement.\n- On voit si Gemini a servi, ou pourquoi il n'a pas servi (limite gratuite atteinte, modèle de secours…).",
+ "version": "2.4.11",
+ "notes": "- iPhone : les clips peuvent arriver tout seuls dans Photos grâce à Photos iCloud, sans Wi-Fi commun ni QR code (voir l'aide).\n- Montage : retour de la mise en page « Facecam + jeu » (la tête du streamer en haut, le jeu en dessous).",
  "blocs": [
   {
    "id": "programme",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.10-test/programme-fe38bbec5539.zip",
-   "size": 22822296,
-   "sha256": "fe38bbec553922102e4a1c7d1ab53eeff4551e9549788d5ffbd328a600d9fbf7",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.11-test/programme-ba6ef2761bf6.zip",
+   "size": 22821747,
+   "sha256": "ba6ef2761bf698b35f9f53df740d49611f918f2c4d7b5a974992dc36e16e8f04",
    "fichiers": [
     {
      "path": "LISEZMOI.txt",
@@ -15,26 +15,26 @@
     },
     {
      "path": "NOUVEAUTES.txt",
-     "size": 10599,
-     "sha256": "a59f7ea6d1d8acd8850225877a06257554d90e0935dfad2e2b643b78b1ec0e56"
+     "size": 10894,
+     "sha256": "c117ab4b793b47aa8b6c7aa52231cb8450481f8d8d270105e4cc12ad4366cebb"
     },
     {
      "path": "Remplacant.exe",
-     "size": 8384645,
-     "sha256": "819cd9a3807e8e76a029babf8a30b3c9820a1fc5f0fe1705524905d1e72e2c38"
+     "size": 8384010,
+     "sha256": "281f475f2c35d4cf909992f01dc2d2060f134046c8970f530b3f489279039712"
     },
     {
      "path": "Zinqo.exe",
-     "size": 14873312,
-     "sha256": "04a5ab3ee6aacacd88112d853f79570b35f599ba46ebc2be5d575da1aca6f4e3"
+     "size": 14873568,
+     "sha256": "82a9ffeea2f20d1218408eb403b5f9e7d9fb05dfc44ca522463b6b23394a8e78"
     }
    ]
   },
   {
    "id": "divers",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.10-test/divers-298ad03d1e02.zip",
-   "size": 39916743,
-   "sha256": "298ad03d1e02573b45bdbf9b73627e31aff35dd21f599d183f6d7cf9082d11bd",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.11-test/divers-0c95e6ed4df2.zip",
+   "size": 39916717,
+   "sha256": "0c95e6ed4df2d1894dda458e841aa8a1d32ec16b329608ca29e6170ef7881644",
    "fichiers": [
     {
      "path": "_internal/MSVCP140_1.dll",
@@ -429,7 +429,7 @@
     {
      "path": "_internal/base_library.zip",
      "size": 1333717,
-     "sha256": "85bbf64115664d55fa2777b82f6a715168a8f110f05d924e01dabf67ad7b31ba"
+     "sha256": "53b7abdd4ddb0c3abbafe93144cebb3c8cdc6344e072ea12af36be95197476bf"
     },
     {
      "path": "_internal/certifi/cacert.pem",
@@ -468,8 +468,8 @@
     },
     {
      "path": "_internal/clip-maker.html",
-     "size": 250404,
-     "sha256": "923dbab5e628ea14f9795a8b82dab795bbf47f0e37b844e6557729f65d096965"
+     "size": 250681,
+     "sha256": "581ef884288c42a6a055b987b887bc8991d9104099aa960577aa6b2d8b414971"
     },
     {
      "path": "_internal/clr_loader/ffi/dlls/amd64/ClrLoader.dll",
@@ -1093,8 +1093,8 @@
     },
     {
      "path": "_internal/produit/aide.md",
-     "size": 10009,
-     "sha256": "fbae98108fc3340d2d7381fafc585764efefa59f3f39a64b59c13a129fd897ae"
+     "size": 10496,
+     "sha256": "79c869db85c292472572a2b1fcb2daed88e9ba86f109146e30da4d514e5e68cf"
     },
     {
      "path": "_internal/produit/cle_gemini.md",
@@ -4560,7 +4560,7 @@
   },
   {
    "id": "ctranslate2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.10-test/ctranslate2-a0161f1c345a.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.11-test/ctranslate2-a0161f1c345a.zip",
    "size": 19224079,
    "sha256": "a0161f1c345aa78cceac2baa3401ec4f26b111ac0e7e84d70b1b923e34df57c5",
    "fichiers": [
@@ -4708,7 +4708,7 @@
   },
   {
    "id": "cv2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.10-test/cv2-fc2581d22750.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.11-test/cv2-fc2581d22750.zip",
    "size": 26480564,
    "sha256": "fc2581d22750024e91ab3fb74b14177e3d6b5703997bc54a95941840521815cc",
    "fichiers": [
@@ -4781,7 +4781,7 @@
   },
   {
    "id": "numpy.libs",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.10-test/numpy.libs-6b74201d52d2.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.11-test/numpy.libs-6b74201d52d2.zip",
    "size": 6757621,
    "sha256": "6b74201d52d2202f5e6c87bb8a41ba3ebbaaae3c1ac8184a4de18936aafea01b",
    "fichiers": [
@@ -4799,7 +4799,7 @@
   },
   {
    "id": "onnxruntime",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.10-test/onnxruntime-90288ac93227.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.11-test/onnxruntime-90288ac93227.zip",
    "size": 14878187,
    "sha256": "90288ac932274c97f980a35b56e20fec29ab503b501e43c5f945ba8fd27d2a5f",
    "fichiers": [
