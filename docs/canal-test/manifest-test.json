@@ -1,12 +1,12 @@
 {
- "version": "2.4.12",
- "notes": "- Préclip : chaque clip commence par son moment fort (choisi par Gemini, 10 s au plus) en noir et blanc, puis un retour en arrière avec un son de coupure, puis le clip. Activé par défaut (case dans Avancé).\n- Facecam + jeu : la facecam est trouvée sur n'importe quel bord de l'image (plus seulement dans un coin), et Zinqo retient sa place pour chaque chaîne.\n- Si aucune facecam n'est trouvée, la carte du clip l'indique clairement.",
+ "version": "2.4.13",
+ "notes": "- Quand les clips d'une vidéo sont finis, un bouton bien visible « + Nouvelle vidéo » permet de passer tout de suite à une autre vidéo.",
  "blocs": [
   {
    "id": "programme",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.12-test/programme-574e06c67296.zip",
-   "size": 22824568,
-   "sha256": "574e06c67296544fb0404a15d89caecf8821fb0080dd068a2072d37c0d865feb",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.13-test/programme-b0fdb3c8aacb.zip",
+   "size": 22825083,
+   "sha256": "b0fdb3c8aacbed4f284d3367b1bf5fa1055ad3234d2607b91fe930744bcc4a90",
    "fichiers": [
     {
      "path": "LISEZMOI.txt",
@@ -15,26 +15,26 @@
     },
     {
      "path": "NOUVEAUTES.txt",
-     "size": 11393,
-     "sha256": "61413d2c5730a5e36c345fc0e14631b201393851c249e7814f233c590f8e6293"
+     "size": 11592,
+     "sha256": "be510bb8450ea6196de4586e5a6139c6ffe83f35cbef980337ff1e8d39a34257"
     },
     {
      "path": "Remplacant.exe",
-     "size": 8383965,
-     "sha256": "a8b1a8d0b34a9881895b7db5622b74ad5bbef0257b0ded37756785f13d513cf2"
+     "size": 8384153,
+     "sha256": "603bbc952007a6cc567d52d3253869d401fe77975a177a4763f94a58d311051d"
     },
     {
      "path": "Zinqo.exe",
      "size": 14876170,
-     "sha256": "60fe98a7e86dabcd4f9a0918d101446b9606338245371c6849d073af810a0e7d"
+     "sha256": "bd014cf53be29c31449f329106785eb62b77b803a2d70745752170f0f922e747"
     }
    ]
   },
   {
    "id": "divers",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.12-test/divers-576ec6ed241b.zip",
-   "size": 39916630,
-   "sha256": "576ec6ed241bc3f3ad789d56c028671b00d5405c3e0cc68feb4577e3607fabb2",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.13-test/divers-0c860571f9ba.zip",
+   "size": 39916976,
+   "sha256": "0c860571f9ba561b6851fb614a383c733e53703efd32ed48b5cff3bf315c18b9",
    "fichiers": [
     {
      "path": "_internal/MSVCP140_1.dll",
@@ -429,7 +429,7 @@
     {
      "path": "_internal/base_library.zip",
      "size": 1333717,
-     "sha256": "f90d52e1ed26e8c20f9ca1c59cecf1d345866f2f7f1f1f9cb1413db0e741f9e6"
+     "sha256": "1a491a74b3104cf2f3c11903bebb35c25d47583837f7c57266b442a962c47eee"
     },
     {
      "path": "_internal/certifi/cacert.pem",
@@ -468,8 +468,8 @@
     },
     {
      "path": "_internal/clip-maker.html",
-     "size": 251358,
-     "sha256": "af94062e45bd4920be0d5c9a56dbf4aa506d9972a70efded29d0da45275eeda2"
+     "size": 251614,
+     "sha256": "543976babbefc9ea5de2f627a3cb7060ab33b6e762e59fe10b516bb2926b88f7"
     },
     {
      "path": "_internal/clr_loader/ffi/dlls/amd64/ClrLoader.dll",
@@ -4560,7 +4560,7 @@
   },
   {
    "id": "ctranslate2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.12-test/ctranslate2-a0161f1c345a.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.13-test/ctranslate2-a0161f1c345a.zip",
    "size": 19224079,
    "sha256": "a0161f1c345aa78cceac2baa3401ec4f26b111ac0e7e84d70b1b923e34df57c5",
    "fichiers": [
@@ -4708,7 +4708,7 @@
   },
   {
    "id": "cv2",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.12-test/cv2-fc2581d22750.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.13-test/cv2-fc2581d22750.zip",
    "size": 26480564,
    "sha256": "fc2581d22750024e91ab3fb74b14177e3d6b5703997bc54a95941840521815cc",
    "fichiers": [
@@ -4781,7 +4781,7 @@
   },
   {
    "id": "numpy.libs",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.12-test/numpy.libs-6b74201d52d2.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.13-test/numpy.libs-6b74201d52d2.zip",
    "size": 6757621,
    "sha256": "6b74201d52d2202f5e6c87bb8a41ba3ebbaaae3c1ac8184a4de18936aafea01b",
    "fichiers": [
@@ -4799,7 +4799,7 @@
   },
   {
    "id": "onnxruntime",
-   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.12-test/onnxruntime-90288ac93227.zip",
+   "url": "https://github.com/DXTR-Codex/zinqo/releases/download/v2.4.13-test/onnxruntime-90288ac93227.zip",
    "size": 14878187,
    "sha256": "90288ac932274c97f980a35b56e20fec29ab503b501e43c5f945ba8fd27d2a5f",
    "fichiers": [
